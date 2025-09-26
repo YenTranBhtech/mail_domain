@@ -8,7 +8,7 @@
                 <h2>Configure Email</h2>
                 <div class="row mt16 o_settings_container" id="email_from_configs">
                     <div class="col-12 col-lg-6 o_setting_box"
-                        id="aws_cognito_setting">
+                        id="configure_email_setting">
                         <div class="o_setting_right_pane">
                             <div class="content-group">
                                 <div class="row mt16">

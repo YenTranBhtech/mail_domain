@@ -27,8 +27,7 @@ class ResConfigSettings(models.TransientModel):
 class MailMail(models.Model):
     _inherit = 'mail.mail'
 
-
-    def send(self, auto_commit=False, raise_exception=False):
+    def send(self, auto_commit=False, raise_exception=False, post_send_callback=None):
         sever_email_replace = self.env['ir.config_parameter'].sudo().get_param('sever_email_replace')
         email_domains = self.env['ir.config_parameter'].sudo().get_param('email_domains')
         for rec in self:
@@ -43,4 +42,4 @@ class MailMail(models.Model):
                     if not rec.reply_to:
                         rec.reply_to = rec.email_from
                     rec.email_from = sever_email_replace
-        return super(MailMail, self).send(auto_commit, raise_exception)
+        return super(MailMail, self).send(auto_commit, raise_exception, post_send_callback)
