@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 {
     'name': "Mail Domain",
-    'version': '1.0',
+    'version': '19.0.1.0',
     'summary': 'BHS Mail',
     'category': 'Mail',
     'description': """BH Mail""",
