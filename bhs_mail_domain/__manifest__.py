@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
 {
-    'name': "Mail Domain",
+    'name': "Email Sender Control",
     'version': '19.0.1.0',
     'summary': 'BHS Mail',
     'category': 'Mail',
-    'description': """BH Mail""",
+    'description': """Email Sender Control""",
     "depends": ['mail', 'base_setup'],
     'data': [
         'views/mail_res_config_settings.xml'
