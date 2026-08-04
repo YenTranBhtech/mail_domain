@@ -8,7 +8,7 @@
     <img src="/bhs_mail_domain/static/description/icon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Mail Domain</h3>
+  <h3 align="center">Email Sender Control</h3>
 
   <p align="center">
     If email does not belong to company's domain, it will be sent from a configured email address instead of user's email.
