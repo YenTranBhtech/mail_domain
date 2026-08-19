@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 {
-    'name': "Mail Domain",
+    'name': "Email Sender Control",
     'version': '1.0',
     'summary': 'BHS Mail',
     'category': 'Mail',
